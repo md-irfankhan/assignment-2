@@ -232,9 +232,39 @@ main {
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.875rem;
 }
-.habit-cards{
+
+.habit-cards {
   gap: 40px;
 }
+
+.run {
+  align-items: center;
+  justify-content: space-between;
+  gap: 165px;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin-top: 100px;
+  padding: 40px;
+}
+
+.run-img img {
+  height: 366px;
+  width: 312px;
+  border-radius: 12px;
+}
+
+.run-text-title {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.run-text-subtitle {
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+
 @media screen and (max-width:576px) {
   .banner {
     flex-direction: column;
@@ -271,8 +301,13 @@ main {
     bottom: 450px;
     left: 130px;
   }
-  .habit-cards{
+
+  .habit-cards {
     flex-direction: column;
+  }
+  .run{
+    flex-direction: column;
+    gap: 16px;
   }
 
 }
