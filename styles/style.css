@@ -350,6 +350,66 @@ option{
 .fbtn{
  width: 60%;
 }
+.teams{
+  margin-top: 140px;
+}
+.teams-text{
+  margin-bottom: 78px;
+  text-align: center;
+}
+.teams-title{
+  font-size: 3rem;
+  margin: 0;
+}
+.teams-subtitle{
+  font-size: 0.875rem;
+  margin: 0;
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.team-card-img{
+  /* height: 100%; */
+  width: 100%;
+  border-radius: 18px;
+  height: 272px;
+}
+.team-card{
+  position: relative;
+  height: 272px;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  overflow: hidden;
+}
+.team-card-texts{
+  position: absolute;
+  bottom: 16px;
+  left: 19px;
+  z-index: 2;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.team-card-title{
+  font-size: 1.25rem;
+  margin: 0;
+}
+.team-card-subtitle{
+  font-size: 0.875rem;
+  margin: 0;
+  margin-top: 3px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.team-cards{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
 @media screen and (max-width:576px) {
   .banner {
     flex-direction: column;
@@ -398,10 +458,9 @@ option{
     flex-direction: column;
     gap: 30px;
   }
-  /* .form{
-
-      grid-template-columns: auto auto auto;
-  } */
+.team-cards{
+  grid-template-columns: 1fr;
+}
 
 
 
