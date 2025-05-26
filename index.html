@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <script src="https://kit.fontawesome.com/f8ddf74ce1.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header class="header">
         <nav class="nav flex">
@@ -32,7 +34,8 @@
                     Get body in <span class="miamis">shape</span> & stay healthy
                 </h1>
                 <p class="banner-subtitle inter-400">
-                    A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
+                    A huge selection of health and fitness content, healthy recipes and transformation stories to help
+                    you get fit and stay fit!
                 </p>
 
                 <div class="banner-btn">
@@ -64,7 +67,8 @@
         <section class="habit">
             <div class="habit-texts">
                 <h3 class="habit-title inter-900">Change Your Habits</h3>
-                <p class="habit-subtitle inter-400 ">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <p class="habit-subtitle inter-400 ">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or access to a gym.</p>
             </div>
             <div class="habit-cards flex">
                 <div class="habit-card">
@@ -93,13 +97,77 @@
         <section class="run flex">
             <div class="run-texts">
                 <h2 class="run-text-title inter-900">Run an Extra Mile Easily</h2>
-                <p class="run-text-subtitle inter-400">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="run-text-subtitle inter-400">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or access to a gym. With hundreds of professional workouts.</p>
                 <button style="font-size: 1.125rem;" class="btn inter-600">Join Now</button>
             </div>
             <div class="run-img">
                 <img src="./images/run.jpg" alt="">
             </div>
         </section>
+
+        <section class="bmi">
+            <div class="bmi-texts">
+                <h2 class="bmi-text-title inter-900">BMI Calculator</h2>
+                <p class="bmi-text-subtitle inter-400">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or access to a gym.</p>
+            </div>
+            <div class="bmi-contents flex">
+                <div class="bmi-chart">
+                    <h2 class="bmi-chart-title inter-900">BMI Calculator Chart</h2>
+                    <table class="bmi-table">
+                        <tr>
+                            <th class="inter-500">BMI</th>
+                            <th class="inter-500">Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td class="inter-500">Below 18.5</td>
+                            <td class="inter-500">Underweight</td>
+                        </tr>
+                        <tr>
+                            <td class="inter-500">18.5 - 24.9</td>
+                            <td class="inter-500">Healthy</td>
+                        </tr>
+                        <tr>
+                            <td class="inter-500">25.0 - 29.9</td>
+                            <td class="inter-500">Overweight</td>
+                        </tr>
+                        <tr>
+                            <td class="inter-500">30.0 - and Above</td>
+                            <td class="inter-500">Obese</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="bmi-calculator">
+                    <h2 class="bmi-calculator-title inter-900">Calculate your BMI</h2>
+                    <p class="bmi-calculator-subtitle inter-400">We believe fitness should be accessible to everyone, everywhere,
+                        regardless of income or access to a gym.</p>
+
+                    <form action="" class="form">
+                        <input type="text" placeholder="Height/cm" class="item1 input-item">
+                        <input type="text" placeholder="Weight/kg" class="item2 input-item">
+                        <input type="text" placeholder="Age" class="item3 input-item">
+                        <select  class="item4 input-item">
+                            <option value="" disabled selected hidden>Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            
+                        </select>
+                        <select class="item5 input-item">
+                            <option style="color: rgba(255, 255, 255, 0.6);" value="" disabled selected hidden>Select an activity factor</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            
+                        </select>
+                        <button  class="btn fbtn inter-600" >Calculate</button>
+                    </form>
+                    
+                </div>
+
+            </div>
+        </section>
     </main>
 </body>
+
 </html>
